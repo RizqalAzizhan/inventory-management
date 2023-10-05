@@ -1,0 +1,96 @@
+:root{
+    --bg-color: #a5a0a0;
+    --navside:#031084;
+    --bg-lgn:#ffffff;
+    --text:black;
+}
+
+*{
+    font-family: "Poppins";
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.sidebar{
+    display: flex;
+    background-color: var(--navside);
+    width: 260px;
+    padding: 24px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.main-content{
+    background-color:var(--bg-color);
+    flex-grow: 1;
+}
+
+.main-content .page-main{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 94vh;
+    border-radius: 10px;
+}
+
+.sidebar .desc-header{
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: -10px;
+}
+
+.sidebar .header .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+}
+
+.sidebar .header .list-item .icon{
+    margin-right: 14px;
+}
+
+.sidebar .main .list-item .desc-main{
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -10px;
+}
+
+.sidebar .main .list-item .icon{
+    color: #ffffff;
+    width: 35px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.sidebar .main .list-item{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 215px;
+    height: 43px;
+    box-sizing: border-box;
+    transition: all ease-in 0.3s;
+}
+
+.sidebar .main .list-item:hover{
+    background-color: var(--bg-color);
+    transition: all ease-in 0.3s;
+
+}
