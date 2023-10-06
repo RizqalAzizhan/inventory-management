@@ -57,7 +57,7 @@
     </form>
 
     <div class="coment">
-    <a href="login.html">already have an account?</a>
+    <a href="login.html">Already have an account?</a>
     </div>
 
 </div> 
