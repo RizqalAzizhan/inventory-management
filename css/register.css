@@ -1,5 +1,5 @@
 :root {
-  --bg-color: red;
+  --bg-color:#031084;
   --bg-lgn: #dcdcdc;
   --text: black;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  padding: 4.5rem 7% 1rem;
+  padding: 0.5rem 7% 1rem;
 }
 
 .container .row {
