@@ -37,10 +37,6 @@
         <input type="password" placeholder="Enter Your Password" name="password">
        </div>
 
-	   <?php if( isset($error) ) : ?>
-			<p class="error" style="color: red; font-style: italic;">Incorrect username or password!</p>
-		<?php endif; ?>
-
        <button type="submit" class="btn" name="login">Log In</button>
     </form>
 
