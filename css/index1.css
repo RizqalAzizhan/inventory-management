@@ -94,3 +94,64 @@
     transition: all ease-in 0.3s;
 
 }
+
+.main-content .page-main h1{
+    padding: 0.1rem;
+    margin-left: 1.8rem;
+
+}
+
+
+
+/* Media Queris */
+
+  /* Laptop */
+  @media (max-width: 1366px) {
+    html {
+      font-size: 100%;
+    }
+  }
+
+/* tablet */
+@media (max-width: 768px) {
+    html {
+      font-size: 75.5%;
+    }
+    .container .sidebar  {
+        width: 15%;
+      }
+    .list-item span{
+      display: none;
+    }
+    .main-content .page-main{
+      height: 110vh;
+    }
+    }
+
+    @media (max-width: 560px) {
+        html {
+          font-size: 80%;
+        }
+        .container .sidebar  {
+            width: 20%;
+          
+          }
+    }
+
+  /* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+      font-size: 80%;
+    }
+    .container .sidebar  {
+        width: 25%;
+      
+      }
+      .list-item span{
+        display: none;
+      }
+      .main-content .page-main{
+        height: 110vh;
+      }
+    
+  }
