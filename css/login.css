@@ -118,12 +118,9 @@ form p {
 }
 
 @media (min-width: 1366px) {
-  .container {
-    scale: 0.8;
-    padding: 2rem 7% 1rem;
-  }
+
   .container .coment a {
-    margin-left: 4.5em;
+    margin-left: 1em;
   }
 }
 
