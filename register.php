@@ -57,7 +57,7 @@
     </form>
 
     <div class="coment">
-    <a href="login.php">already have an account?</a>
+    <a href="login.html">already have an account?</a>
     </div>
 
 </div> 
