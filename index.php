@@ -72,7 +72,19 @@
             </div>
         </div>
         <div class="main-content">
-            <div class="page-main"></div>
+            <div class="page-main">
+                <h1>ITEM LIST</h1>
+                <p>Welcome admin</p>
+                <div class="cont-header">
+                    <p>Export Document</p>
+                </div>
+                <div class="cont-header">
+                    <p>Export Document</p>
+                </div>
+                <div class="cont-header">
+                    <p>Export Document</p>
+                </div>
+            </div>
         </div>
         
     </div>
