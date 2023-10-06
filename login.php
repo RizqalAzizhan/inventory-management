@@ -41,7 +41,7 @@
     </form>
 
     <div class="coment">
-    <a href="register.php">don't have an account? Create Account</a>
+    <a href="register.html">don't have an account? Create Account</a>
     </div>
 
 </div> 
